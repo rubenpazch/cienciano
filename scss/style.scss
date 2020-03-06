@@ -1,0 +1,30 @@
+@import '../scss/fonts.scss';
+@import '../scss/colors.scss';
+@import '../scss/font-family.scss';
+
+body {
+  background-color: red;
+}
+
+.bg-photo {
+  background-image: url(../img/cover-cienciano.jpg);
+  background-size: cover;
+  display: block;
+  min-height: 500px;
+}
+
+.nav-menu {
+  display: flex;
+  flex-flow: row;
+  align-items: flex-end;
+  justify-content: start;
+  padding: 0;
+}
+
+.ul-menu {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}

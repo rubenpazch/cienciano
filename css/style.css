@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Cocogoose";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Cocogoose.eot?") format("eot"), url("../fonts/Cocogoose.woff") format("woff"), url("../fonts/Cocogoose.ttf") format("truetype"), url("../fonts/Cocogoose.svg#Cocogoose") format("svg"); }
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg"); }
+.f-lg {
+  font-family: "Cocogoose", sans-serif;
+  font-weight: 500;
+  font-size: 0.9vw;
+  color: #fff;
+  text-transform: uppercase;
+  /*line-height: 30px;*/ }
+
+body {
+  background-color: red; }
+
+.bg-photo {
+  background-image: url(../img/cover-cienciano.jpg);
+  background-size: cover;
+  display: block;
+  min-height: 500px; }
+
+.nav-menu {
+  display: flex;
+  flex-flow: row;
+  align-items: flex-end;
+  justify-content: start;
+  padding: 0; }
+
+.ul-menu {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0; }
+
+/*# sourceMappingURL=style.css.map */
