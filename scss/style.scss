@@ -6,6 +6,34 @@ body {
   background-color: red;
 }
 
+.wrapper-header {
+  background-color: blue;
+}
+
+.nav-bar-container {
+  display: flex;
+  flex-flow: row;
+  line-height: 30px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: purple;
+  padding: 15px 15px;
+}
+
+.list-nav {
+  display: flex;
+  flex-flow: row;
+}
+
+.list-social {
+  display: flex;
+  flex-flow: row;
+}
+
+.logo {
+  width: 4vw;
+}
+/*
 .bg-photo {
   background-image: url(../img/cover-cienciano.jpg);
   background-size: cover;
@@ -28,3 +56,4 @@ body {
   justify-content: space-between;
   padding: 5;
 }
+*/
