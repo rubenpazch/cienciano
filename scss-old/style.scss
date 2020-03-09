@@ -1,0 +1,33 @@
+@import '../scss/fonts.scss';
+@import '../scss/fontsclasses.scss';
+@import '../scss/colors.scss';
+@import '../scss/font-family.scss';
+
+@import '../scss/nav-main.scss';
+@import '../scss/nav-menu.scss';
+@import '../scss/nav-menulogo.scss';
+@import '../scss/nav-menusocial.scss';
+@import '../scss/cover-slider.scss';
+
+body {
+  background-color: red;
+}
+
+
+/*
+.nav-menu {
+  display: flex;
+  flex-flow: row;
+  align-items: flex-end;
+  justify-content: start;
+  padding: 0;
+}
+
+.ul-menu {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5;
+}
+*/

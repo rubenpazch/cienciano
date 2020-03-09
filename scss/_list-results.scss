@@ -1,0 +1,79 @@
+.list-results {
+  width: 98%;
+  padding-top: 15px;
+  padding-left: 30px;
+  display: flex;
+  flex-flow: row;
+}
+
+.list-all-results {
+  position: relative;
+  height: 100%;
+  margin-right: 10px;
+}
+
+.list-all-results h2{
+  height: 10%;
+}
+
+.list-all-results img{
+  width: 25vw;
+  height: 50vh;
+  
+}
+
+.time-colon {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.time {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+} 
+
+.time p {
+  padding-left: 2px;
+}
+
+.title-next-game {
+  margin-top: 1vh;
+}
+
+.bg-gradient-calendar {
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  background: rgb(176,9,6);
+  background: linear-gradient(45deg, #ff0400 0%, #8c0200 48%, #000000 100%);
+  opacity: 0.9;
+  display: block;
+  height: 50vh;
+  width: 25vw;
+  z-index: 1;
+}
+
+.info-all-results {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 3;
+  height: 100%;
+  width: 100%;
+}
+
+
+.info-all-results h2{
+  padding-top: 150px;
+  padding-left: 55px;
+}
+
+.info-all-results h3{
+  padding-top: 25px;
+  padding-left: 75px;
+}

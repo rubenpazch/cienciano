@@ -1,0 +1,12 @@
+.logo {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid $color-border-menu;
+}
+
+.logo img{
+  width: 25vw;
+  padding: 2vh 2vw;
+}

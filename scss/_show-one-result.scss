@@ -1,0 +1,92 @@
+.show-one-result{
+  height: 50vh;
+  width: 25vw;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-right: 10px;
+  border: 1px solid $color-gray-2;
+}
+
+.title-date-game {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  padding: 2vh 0 2vh 1vw;
+  background-color: $color-gray-3;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.content-game {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.logo-content-game {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.logo-content-game img{
+  width: 6vw;
+}
+
+.game-duration {
+  padding: 15px 0 3px 0;
+  
+}
+
+.info-team-score {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+.info-team-score a {
+  background-color: $color-gray-3;
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 5px 25px 5px 25px;
+  border-radius: 15px;
+  max-height: 7vh;
+}
+
+.logo-clubes img{
+  width: 4vw;
+}
+
+.clubes-title-score {
+  padding: 5px 0;
+}
+
+.links-score {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.btn-video-past-game {
+  display: block;
+  background-color: $color-red-cienciano-dark;
+  padding: 10px 23px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-video-resume-game {
+  display: block;
+  background-color:$color-blue-gray;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 5px;
+  text-decoration: none;
+}

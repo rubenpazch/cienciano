@@ -1,0 +1,74 @@
+.section-calendar {
+  display: flex;
+  flex-flow: column;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.wrapper-white-calendar{
+  width: 94vw;  
+  background-color: $color-white;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.wrapper-calendar {
+  display: flex;
+  flex-flow: row;
+  width: 100vw;
+  padding-left: 3vw;
+  
+}
+
+.title-calendar {
+  width: 33.33vw;
+  display: flex;
+  flex-flow: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.title-calendar h2 {
+  background: rgb(176,9,6);
+  background: linear-gradient(45deg, #ff0400 0%, #8c0200 48%, #000000 100%);
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-align: left;
+  padding-top: 3vw;
+}
+
+.title-calendar span{
+  text-align: left;
+  padding-top: 3vw;
+  padding-left: 0.7vw;
+}
+
+.countdown {
+  width: 33.33vw;
+  display: flex;
+  flex-flow: row;
+  padding-top: 3vw;
+}
+
+.countdown p {
+  padding:  0 15px 0 0;
+}
+
+.scroll-list-btn {  
+  width: 33.33vw;
+}
+
+.time-counter {
+  display: flex;
+  flex-flow: row;
+}
+
+.time span {
+  background: rgb(176,9,6);
+  background: linear-gradient(45deg, #ff0400 0%, #8c0200 48%, #000000 100%);
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; 
+}

@@ -1,0 +1,211 @@
+@import '../scss/colors.scss';
+
+.f-menu-item {
+  font-family: "lato", sans-serif;
+  font-weight: 700;
+  font-size: 1vw;
+  line-height: 30px;
+  color: $color-white;
+  text-transform: uppercase;
+}
+
+.f-menu-item-follow {
+  font-family: "lato", sans-serif;
+  font-weight: 700;
+  font-size: 0.8vw;
+  line-height: 30px;
+  color: $color-gray;
+  text-transform: uppercase;
+}
+
+.f-menu-item-fan {
+  font-family: "lato", sans-serif;
+  font-weight: 700;
+  font-size: 0.9vw;
+  line-height: 30px;
+  color: $color-gray;
+  text-transform: capitalize;
+}
+
+.f-menu-social {
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 30px;
+  color: $color-white;
+}
+
+.f-cove-title {
+  font-family: "Cocogoose", sans-serif;
+  font-weight: 700;
+  font-size: 2.5vw;
+  line-height: 30px;
+  color: $color-white;
+}
+
+.f-cover-accordion {
+  font-family: 'Lato';
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+}
+
+.f-sponsors {
+  font-family: "lato", sans-serif;
+  font-weight: 700;
+  font-size: 0.9vw;
+  line-height: 30px;
+  color: $color-white;
+  text-transform: uppercase;
+}
+
+.f-sponsors-time-icon {
+  font-family: "lato", sans-serif;
+  font-weight: 700;
+  font-size: 0.7vw;
+  line-height: 30px;
+  color: $color-orange-light;
+  text-transform: uppercase;
+}
+
+.f-sponsors-time-icon-low {
+  font-family: "lato", sans-serif;
+  font-weight: 700;
+  font-size: 0.7vw;
+  line-height: 30px;
+  color: $color-white;
+  text-transform: lowercase;
+}
+
+.f-title-calendar {
+  font-family: "Cocogoose", sans-serif;
+  font-weight: 900;
+  font-size: 1.8vw;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+
+.f-title-calendar-span {
+  font-family: "lato", sans-serif;
+  font-weight: lighter;
+  font-size: 2vw;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: $color-red-cienciano-dark;
+}
+
+.f-time-title-calendar {
+  font-family: "Cocogoose", sans-serif;
+  font-weight: 100;
+  font-size: 3vw;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+
+.f-time-title-calendar-dots {
+  font-family: "lato", sans-serif;
+  font-weight: lighter;
+  font-size: 1.8vw;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: $color-red-cienciano-dark;
+}
+
+.f-next-game {
+  font-family: "lato", sans-serif;
+  font-weight: 700;
+  font-size: 0.9vw;
+  line-height: 30px;
+  color: $color-black;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.f-day-hour-minut {
+  font-family: "lato", sans-serif;
+  font-weight: 700;
+  font-size: 0.7vw;
+  line-height: 20px;
+  color: $color-red-cienciano-dark;
+  text-transform: uppercase;
+}
+
+.f-title-show-all-results {
+  font-family: "Cocogoose", sans-serif;
+  font-weight: 100;
+  font-size: 2vw;
+  color: #fff;
+}
+
+.f-title-show-all-results-thik {
+  font-family: "lato", sans-serif;
+  font-weight: 100;
+  font-size: 2.5vw;
+  color: #fff;
+}
+
+.f-cove-title-day {
+  font-family: "lato", sans-serif;
+  font-weight: 900;
+  font-size: 2.6vw;
+  line-height: 30px;
+  color: $color-white;
+  letter-spacing: 2px;
+}
+
+.f-cove-title-dayofweek {
+  font-family: "Cocogoose", sans-serif;
+  font-weight: 900;
+  font-size: 1.1vw;
+  color: $color-white;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.f-cove-title-day-monthgame {
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.2vw;
+  color: $color-white;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.f-duration-game {
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 0.9vw;
+  color: $color-gray-3;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+
+.f-link-score-game {
+  font-family: "lato", sans-serif;
+  font-weight: 900;
+  font-size: 2.2vw;
+  line-height: 30px;
+  color: $color-white;
+  letter-spacing: 2px;
+}
+
+
+.f-clubes-score-title {
+  font-family: "lato", sans-serif;
+  font-weight: 700;
+  font-size: 1.5vw;
+  line-height: 30px;
+  color: $color-black;
+  text-transform: initial;
+}
+
+.f-button-past-game {
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 0.7vw;
+  color: $color-white;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}

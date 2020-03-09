@@ -1,0 +1,20 @@
+.sponsors-club {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6vh 0;
+  letter-spacing: 1px;
+}
+
+.sponsors-club span{
+  background-color: $color-border-menu;
+  width: 1px;
+  min-height: 4vh;
+  margin: 0 3vw;
+}
+
+.logo-sponsor img {
+  width: 10vw;
+  padding: 0 1vw;
+}

@@ -1,0 +1,12 @@
+.social-top-bar {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  background-color: $color-red-cienciano-dark;
+}
+
+.social-top-bar svg{
+  width: 20px;
+  margin-left: 15px;
+  fill: $color-white;
+}

@@ -1,0 +1,12 @@
+.wrapper-top-bar {
+  display: flex;
+  flex-flow: row;
+  min-height: 15vh;
+
+}
+
+.line-gradient {
+  background: linear-gradient(84deg, #a92726 0%, #900200 29%, #880100 44%, #a21423 58%, #29156e 100%);
+  min-width: 100%;
+  min-height: 8px;
+}
